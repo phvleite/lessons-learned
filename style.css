@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     color: rgb(0, 49, 39);
+    font-family: 'Nunito', sans-serif;
 }
 
 #titulo {
@@ -14,6 +15,7 @@ body {
     left: 0px;
     right: 0px;
     text-align: center;
+    box-shadow: 0 0 1em gray;
 }
 
 #minha_foto {
@@ -45,6 +47,27 @@ hr {
     border-radius: 25px;
 }
 
+#bloco-listas-1 {
+    display: inline-block;
+    margin-top: 0;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 60px;
+}
+
+#bloco-listas-2 {
+    display: inline-block;
+    margin-top: 0;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#bloco-listas-1 h2, #bloco-listas-2 h2{
+    text-align: center;
+}
+
+
 #licoes_aprendidas, #licoes_a_aprender {
     font-size: 25px;
 }
@@ -71,12 +94,13 @@ hr {
     text-align: center;
     margin: auto;
     display: block;
-    width: 750px;
+    width: 550px;
     transition: 0.5s;
 }
 
 .button:hover {
     background: rgb(160, 37, 6);
+    box-shadow: 0 0 0.5em gray;
 }
 
 p {
