@@ -125,3 +125,23 @@ p {
     line-height: 40px;
     text-align: justify;
 }
+
+#sessao {
+    display: grid;
+    width: 1400px;
+    grid-template-columns: 700px 700px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.lado-esquerdo{
+    display:block;
+    width: 550px;
+}
+
+.lado-direito{
+    display:block;
+    width: 550px;
+}
