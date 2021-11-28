@@ -39,28 +39,22 @@ hr {
     border-radius: 25px;
 }
 
-#bloco-listas-1 {
+.blocos {
     display: inline-block;
     margin-top: 0;
     padding: 20px;
-    margin-left: 100px;
-    margin-right: 60px;
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
-#bloco-listas-2 {
-    display: inline-block;
-    margin-top: 0;
-    padding: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-#bloco-listas-1 h2, #bloco-listas-2 h2{
+.bloco h2 {
     text-align: center;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
-    font-size: 25px;
+
+.licoes {
+    font-size: 20px;
+    line-height: 50px;
 }
 
 #rodape {
